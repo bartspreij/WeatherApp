@@ -12,7 +12,7 @@ function App() {
       <h1>Weather App</h1>
 
       <br></br>
-      <footer class="read-the-docs">
+      <footer class="Footer-on-index">
         Created by the genius that is the Ba, Mi collective. With assistance of No.
       </footer>
     </>
