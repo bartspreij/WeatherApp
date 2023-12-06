@@ -1,22 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+import { useEffect, useState } from "react";
+import "./App.css";
+import WeatherTable from "./components/WeatherTable";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <img />
+      <div className="App">
+          <h1>Weertje!!!</h1>
+          <WeatherTable/>
       </div>
-      <h1>Weather App</h1>
-
-      <br></br>
-      <footer class="Footer-on-index">
-        Created by the genius that is the Ba, Mi collective. With assistance of No.
-      </footer>
-    </>
-  )
+  );
 }
 
-export default App
+export default App;
